@@ -14,7 +14,7 @@ var Countdown = React.createClass({
     if(this.state.countdownStatus != prevState.countdownStatus){
       switch(this.state.countdownStatus){
         case 'started' :
-        this.startTimer();
+          this.startTimer();
         break;
         case 'stopped':
           this.setState({count: 0});
